@@ -6,9 +6,9 @@
 
 
 ## Sumário
-	- [Configurar Ambiente](#configurar-ambiente)
-	- [Configurar banco de dados](#configurar-banco-de-dados)
-	- [Executar](executar)
+- [Configurar Ambiente](#configurar-ambiente)
+- [Configurar banco de dados](#configurar-banco-de-dados)
+- [Executar](executar)
 
 ## Configurar Ambiente:
 para rodar esse projeto será necessário instalar algumas dependências:
