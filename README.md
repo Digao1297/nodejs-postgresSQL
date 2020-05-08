@@ -11,14 +11,14 @@
 - [Executar](#executar)
 
 ## Configurar Ambiente:
-para rodar esse projeto será necessário instalar algumas dependências:
+para rodar esse projeto, será necessário instalar algumas dependências:
 
 	- [nodejs](https://nodejs.org/en/download/)
 	- [postgreSQL](https://www.pgadmin.org/download/)
 	
 ## Configurar banco de dados:
 
-Será necessário criar o banco com o nome store ou se deseja mudar basta ir na pasta database no arquivo index.js e mudar     o valor do objeto com a chave ‘database’.
+Será necessário criar o banco com o nome store ou se deseja mudar basta ir na pasta database no arquivo index.js e mudar     o valor do objeto com a chave ‘database’, para o nome que você preferir.
 
 Após isso, precisa ser gerado duas tabelas:
     
@@ -30,7 +30,7 @@ Após isso, precisa ser gerado duas tabelas:
 
 
 ## Executar:
-após as etapas anteriores para executar o projeto, primeiramente precisa ir no diretório do projeto com e abrir um           terminal na pasta.
+após as etapas anteriores para executar o projeto, primeiramente precisa ir no diretório do projeto e abrir um           terminal ou cmd na pasta.
     
 Dentro da pasta basta executar o comando 
 
@@ -48,7 +48,7 @@ E por fim basta rodar o comando
 	
 que irá executar o projeto e preencher o banco de dados usando transactions.
     
-    
+ 
 
 
 
