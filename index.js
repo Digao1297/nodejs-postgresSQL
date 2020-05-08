@@ -1,12 +1,12 @@
 const Database = require("./src/database");
-const ControllerProduct = require("./src/controllers/ControlerProduct");
+const ControllerSale = require("./src/controllers/ControllerSale");
 const Product = require("./src/models/Product");
 const Sale = require("./src/models/Sale");
 
 const db = new Database();
-const cp = new ControllerProduct(db);
+const cp = new ControllerSale(db);
 
-var sale = new Sale("Jubileu", 0);
+var sale = new Sale("Jubileu");
 
 var products = [
   new Product("mascara", 5),
@@ -14,5 +14,4 @@ var products = [
   new Product("alcool em gel", 5000),
 ];
 
-//db.initDatabase();
 cp.insert(products, sale);

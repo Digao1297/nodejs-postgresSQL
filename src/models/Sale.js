@@ -1,8 +1,8 @@
 class Sale {
-  constructor(name, total) {
+  constructor(name) {
     this.id;
     this.name = name;
-    this.total = total;
+    this.total;
   }
 }
 
