@@ -6,9 +6,9 @@
 
 
 ## Sumário
-	Configurar Ambiente
-	Configurar banco de dados
-	Executar
+	- [Configurar Ambiente](#configurar-ambiente)
+	- [Configurar banco de dados](#configurar-banco-de-dados)
+	- [Executar](executar)
 
 ## Configurar Ambiente:
 para rodar esse projeto será necessário instalar algumas dependências:
@@ -22,11 +22,11 @@ Será necessário criar o banco com o nome store ou se deseja mudar basta ir na 
 
 Após isso, precisa ser gerado duas tabelas:
     
-    ```
+    
     CREATE TABLE sale(id SERIAL PRIMARY KEY, name varchar(255),total DECIMAL(10,2))
 
     CREATE TABLE product(id SERIAL PRIMARY KEY, sale_id int, name varchar(255), price DECIMAL(10,2), FOREIGN KEY (sale_id)       REFERENCES sale(id) ON DELETE CASCADE)
-    ``` 
+    
 
 
 ## Executar:
@@ -34,17 +34,17 @@ após as etapas anteriores para executar o projeto, primeiramente precisa ir no 
     
 Dentro da pasta basta executar o comando 
 
-	```
+	
 	npm install
-        ```
+        
 	
 para instalar todas as dependências do projeto.
 
 E por fim basta rodar o comando 
 
-	```
+	
 	npm start
-	```
+	
 	
 que irá executar o projeto e preencher o banco de dados usando transactions.
     
