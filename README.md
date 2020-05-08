@@ -30,15 +30,19 @@ Após isso, precisa ser gerado duas tabelas:
 após as etapas anteriores para executar o projeto, primeiramente precisa ir no diretório do projeto com e abrir um           terminal na pasta.
     
 Dentro da pasta basta executar o comando 
-      ````
-	    npm install
-      ````
+
+	````
+	npm install
+        ````
+	
 para instalar todas as dependências do projeto.
 
 E por fim basta rodar o comando 
-	    ````
-       npm start
-      ````
+
+	````
+	npm start
+	````
+	
 que irá executar o projeto e preencher o banco de dados usando transactions.
     
     
