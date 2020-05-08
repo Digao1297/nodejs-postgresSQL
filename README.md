@@ -16,7 +16,7 @@ para rodar esse projeto será necessário instalar algumas dependências:
 	- [nodejs](https://nodejs.org/en/download/)
 	- [postgreSQL](https://www.pgadmin.org/download/)
 	
-## Configurando banco de dados:
+## Configurar banco de dados:
 
 Será necessário criar o banco com o nome store ou se deseja mudar basta ir na pasta database no arquivo index.js e mudar     o valor do objeto com a chave ‘database’.
 
