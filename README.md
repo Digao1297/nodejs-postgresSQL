@@ -13,8 +13,8 @@
 ## Configurar Ambiente:
 para rodar esse projeto, será necessário instalar algumas dependências:
 
-	- [nodejs](https://nodejs.org/en/download/)
-	- [postgreSQL](https://www.pgadmin.org/download/)
+- [nodejs](https://nodejs.org/en/download/)
+- [postgreSQL](https://www.pgadmin.org/download/)
 	
 ## Configurar banco de dados:
 
